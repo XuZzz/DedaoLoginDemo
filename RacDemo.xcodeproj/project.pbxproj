@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		954BDDBB20C4CEA80026B67E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDBA20C4CEA80026B67E /* AppDelegate.m */; };
-		954BDDBE20C4CEA80026B67E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDBD20C4CEA80026B67E /* ViewController.m */; };
 		954BDDC120C4CEA80026B67E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954BDDBF20C4CEA80026B67E /* Main.storyboard */; };
 		954BDDC320C4CEA90026B67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954BDDC220C4CEA90026B67E /* Assets.xcassets */; };
 		954BDDC620C4CEA90026B67E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954BDDC420C4CEA90026B67E /* LaunchScreen.storyboard */; };
 		954BDDC920C4CEA90026B67E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDC820C4CEA90026B67E /* main.m */; };
 		954BDDD320C4CEA90026B67E /* RacDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDD220C4CEA90026B67E /* RacDemoTests.m */; };
 		954BDDDE20C4CEA90026B67E /* RacDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDDD20C4CEA90026B67E /* RacDemoUITests.m */; };
+		954BDDEE20C4DD7B0026B67E /* XZEnterPhoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDED20C4DD7B0026B67E /* XZEnterPhoneController.m */; };
+		954BDDF120C4E2770026B67E /* XZEnterAuthCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDF020C4E2770026B67E /* XZEnterAuthCodeController.m */; };
+		954BDDF420C509CD0026B67E /* XZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDF320C509CD0026B67E /* XZButton.m */; };
+		954BDE0020C51D7A0026B67E /* XZLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDFF20C51D7A0026B67E /* XZLoginController.m */; };
+		954BDE0320C5208C0026B67E /* CALayer+XZXibConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDE0220C5208C0026B67E /* CALayer+XZXibConfiguration.m */; };
+		F47CA3439F1F88AABAA7005D /* libPods-RacDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 924C8EDECE077B185296CF9A /* libPods-RacDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C2723993712089F3D7C5593 /* Pods-RacDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RacDemo/Pods-RacDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		820853AF6B506962AE7557E2 /* Pods-RacDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RacDemo/Pods-RacDemo.release.xcconfig"; sourceTree = "<group>"; };
+		924C8EDECE077B185296CF9A /* libPods-RacDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RacDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		954BDDB620C4CEA80026B67E /* RacDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RacDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954BDDB920C4CEA80026B67E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		954BDDBA20C4CEA80026B67E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		954BDDBC20C4CEA80026B67E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		954BDDBD20C4CEA80026B67E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		954BDDC020C4CEA80026B67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		954BDDC220C4CEA90026B67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		954BDDC520C4CEA90026B67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,17 @@
 		954BDDD920C4CEA90026B67E /* RacDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		954BDDDD20C4CEA90026B67E /* RacDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RacDemoUITests.m; sourceTree = "<group>"; };
 		954BDDDF20C4CEA90026B67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954BDDEB20C4D3FA0026B67E /* RacDemoPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RacDemoPch.pch; sourceTree = "<group>"; };
+		954BDDEC20C4DD7B0026B67E /* XZEnterPhoneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZEnterPhoneController.h; sourceTree = "<group>"; };
+		954BDDED20C4DD7B0026B67E /* XZEnterPhoneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZEnterPhoneController.m; sourceTree = "<group>"; };
+		954BDDEF20C4E2770026B67E /* XZEnterAuthCodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZEnterAuthCodeController.h; sourceTree = "<group>"; };
+		954BDDF020C4E2770026B67E /* XZEnterAuthCodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZEnterAuthCodeController.m; sourceTree = "<group>"; };
+		954BDDF220C509CD0026B67E /* XZButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZButton.h; sourceTree = "<group>"; };
+		954BDDF320C509CD0026B67E /* XZButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZButton.m; sourceTree = "<group>"; };
+		954BDDFE20C51D7A0026B67E /* XZLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZLoginController.h; sourceTree = "<group>"; };
+		954BDDFF20C51D7A0026B67E /* XZLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZLoginController.m; sourceTree = "<group>"; };
+		954BDE0120C5208C0026B67E /* CALayer+XZXibConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+XZXibConfiguration.h"; sourceTree = "<group>"; };
+		954BDE0220C5208C0026B67E /* CALayer+XZXibConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XZXibConfiguration.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47CA3439F1F88AABAA7005D /* libPods-RacDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CAC5C7EE96C3CC710C5C705 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C2723993712089F3D7C5593 /* Pods-RacDemo.debug.xcconfig */,
+				820853AF6B506962AE7557E2 /* Pods-RacDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		954BDDAD20C4CEA80026B67E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				954BDDD120C4CEA90026B67E /* RacDemoTests */,
 				954BDDDC20C4CEA90026B67E /* RacDemoUITests */,
 				954BDDB720C4CEA80026B67E /* Products */,
+				4CAC5C7EE96C3CC710C5C705 /* Pods */,
+				B0B029A6854648E25ABC13E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +130,17 @@
 		954BDDB820C4CEA80026B67E /* RacDemo */ = {
 			isa = PBXGroup;
 			children = (
+				954BDDFD20C51D670026B67E /* Login */,
+				954BDDFC20C51D570026B67E /* Register */,
+				954BDDFB20C51D480026B67E /* Tools */,
 				954BDDB920C4CEA80026B67E /* AppDelegate.h */,
 				954BDDBA20C4CEA80026B67E /* AppDelegate.m */,
-				954BDDBC20C4CEA80026B67E /* ViewController.h */,
-				954BDDBD20C4CEA80026B67E /* ViewController.m */,
 				954BDDBF20C4CEA80026B67E /* Main.storyboard */,
 				954BDDC220C4CEA90026B67E /* Assets.xcassets */,
 				954BDDC420C4CEA90026B67E /* LaunchScreen.storyboard */,
 				954BDDC720C4CEA90026B67E /* Info.plist */,
 				954BDDC820C4CEA90026B67E /* main.m */,
+				954BDDEB20C4D3FA0026B67E /* RacDemoPch.pch */,
 			);
 			path = RacDemo;
 			sourceTree = "<group>";
@@ -132,6 +163,45 @@
 			path = RacDemoUITests;
 			sourceTree = "<group>";
 		};
+		954BDDFB20C51D480026B67E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				954BDDF220C509CD0026B67E /* XZButton.h */,
+				954BDDF320C509CD0026B67E /* XZButton.m */,
+				954BDE0120C5208C0026B67E /* CALayer+XZXibConfiguration.h */,
+				954BDE0220C5208C0026B67E /* CALayer+XZXibConfiguration.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		954BDDFC20C51D570026B67E /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				954BDDEC20C4DD7B0026B67E /* XZEnterPhoneController.h */,
+				954BDDED20C4DD7B0026B67E /* XZEnterPhoneController.m */,
+				954BDDEF20C4E2770026B67E /* XZEnterAuthCodeController.h */,
+				954BDDF020C4E2770026B67E /* XZEnterAuthCodeController.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		954BDDFD20C51D670026B67E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				954BDDFE20C51D7A0026B67E /* XZLoginController.h */,
+				954BDDFF20C51D7A0026B67E /* XZLoginController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B0B029A6854648E25ABC13E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				924C8EDECE077B185296CF9A /* libPods-RacDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 954BDDE220C4CEA90026B67E /* Build configuration list for PBXNativeTarget "RacDemo" */;
 			buildPhases = (
+				3E051F6F569F7E80EA5DEE2F /* [CP] Check Pods Manifest.lock */,
 				954BDDB220C4CEA80026B67E /* Sources */,
 				954BDDB320C4CEA80026B67E /* Frameworks */,
 				954BDDB420C4CEA80026B67E /* Resources */,
+				EF715F2C184C520FB9EF8AA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +329,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E051F6F569F7E80EA5DEE2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RacDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF715F2C184C520FB9EF8AA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RacDemo/Pods-RacDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RacDemo/Pods-RacDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		954BDDB220C4CEA80026B67E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				954BDDBE20C4CEA80026B67E /* ViewController.m in Sources */,
+				954BDDEE20C4DD7B0026B67E /* XZEnterPhoneController.m in Sources */,
+				954BDE0320C5208C0026B67E /* CALayer+XZXibConfiguration.m in Sources */,
+				954BDDF120C4E2770026B67E /* XZEnterAuthCodeController.m in Sources */,
+				954BDE0020C51D7A0026B67E /* XZLoginController.m in Sources */,
+				954BDDF420C509CD0026B67E /* XZButton.m in Sources */,
 				954BDDC920C4CEA90026B67E /* main.m in Sources */,
 				954BDDBB20C4CEA80026B67E /* AppDelegate.m in Sources */,
 			);
@@ -431,10 +546,12 @@
 		};
 		954BDDE320C4CEA90026B67E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2723993712089F3D7C5593 /* Pods-RacDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2MYY96KKK9;
+				GCC_PREFIX_HEADER = /Users/xu/Documents/RacDemo/RacDemo/RacDemoPch.pch;
 				INFOPLIST_FILE = RacDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +565,12 @@
 		};
 		954BDDE420C4CEA90026B67E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820853AF6B506962AE7557E2 /* Pods-RacDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2MYY96KKK9;
+				GCC_PREFIX_HEADER = /Users/xu/Documents/RacDemo/RacDemo/RacDemoPch.pch;
 				INFOPLIST_FILE = RacDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
