@@ -19,6 +19,10 @@
 		954BDDF420C509CD0026B67E /* XZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDF320C509CD0026B67E /* XZButton.m */; };
 		954BDE0020C51D7A0026B67E /* XZLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDDFF20C51D7A0026B67E /* XZLoginController.m */; };
 		954BDE0320C5208C0026B67E /* CALayer+XZXibConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDE0220C5208C0026B67E /* CALayer+XZXibConfiguration.m */; };
+		954BDE0C20C778860026B67E /* XZSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDE0B20C778860026B67E /* XZSearchController.m */; };
+		954BDE1020C7B8CC0026B67E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDE0F20C7B8CC0026B67E /* MainViewController.m */; };
+		954BDE1320C7BB660026B67E /* XZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDE1220C7BB660026B67E /* XZTextField.m */; };
+		954BDE1620C8CDAF0026B67E /* XZAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BDE1520C8CDAF0026B67E /* XZAnimations.m */; };
 		F47CA3439F1F88AABAA7005D /* libPods-RacDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 924C8EDECE077B185296CF9A /* libPods-RacDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +72,14 @@
 		954BDDFF20C51D7A0026B67E /* XZLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZLoginController.m; sourceTree = "<group>"; };
 		954BDE0120C5208C0026B67E /* CALayer+XZXibConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+XZXibConfiguration.h"; sourceTree = "<group>"; };
 		954BDE0220C5208C0026B67E /* CALayer+XZXibConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XZXibConfiguration.m"; sourceTree = "<group>"; };
+		954BDE0A20C778860026B67E /* XZSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZSearchController.h; sourceTree = "<group>"; };
+		954BDE0B20C778860026B67E /* XZSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZSearchController.m; sourceTree = "<group>"; };
+		954BDE0E20C7B8CC0026B67E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		954BDE0F20C7B8CC0026B67E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		954BDE1120C7BB660026B67E /* XZTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZTextField.h; sourceTree = "<group>"; };
+		954BDE1220C7BB660026B67E /* XZTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZTextField.m; sourceTree = "<group>"; };
+		954BDE1420C8CDAF0026B67E /* XZAnimations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZAnimations.h; sourceTree = "<group>"; };
+		954BDE1520C8CDAF0026B67E /* XZAnimations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZAnimations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +142,8 @@
 		954BDDB820C4CEA80026B67E /* RacDemo */ = {
 			isa = PBXGroup;
 			children = (
+				954BDE0D20C7B8C40026B67E /* Main */,
+				954BDE0920C777410026B67E /* Search */,
 				954BDDFD20C51D670026B67E /* Login */,
 				954BDDFC20C51D570026B67E /* Register */,
 				954BDDFB20C51D480026B67E /* Tools */,
@@ -170,6 +184,10 @@
 				954BDDF320C509CD0026B67E /* XZButton.m */,
 				954BDE0120C5208C0026B67E /* CALayer+XZXibConfiguration.h */,
 				954BDE0220C5208C0026B67E /* CALayer+XZXibConfiguration.m */,
+				954BDE1120C7BB660026B67E /* XZTextField.h */,
+				954BDE1220C7BB660026B67E /* XZTextField.m */,
+				954BDE1420C8CDAF0026B67E /* XZAnimations.h */,
+				954BDE1520C8CDAF0026B67E /* XZAnimations.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -192,6 +210,24 @@
 				954BDDFF20C51D7A0026B67E /* XZLoginController.m */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		954BDE0920C777410026B67E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				954BDE0A20C778860026B67E /* XZSearchController.h */,
+				954BDE0B20C778860026B67E /* XZSearchController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		954BDE0D20C7B8C40026B67E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				954BDE0E20C7B8CC0026B67E /* MainViewController.h */,
+				954BDE0F20C7B8CC0026B67E /* MainViewController.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		B0B029A6854648E25ABC13E1 /* Frameworks */ = {
@@ -376,6 +412,10 @@
 				954BDDEE20C4DD7B0026B67E /* XZEnterPhoneController.m in Sources */,
 				954BDE0320C5208C0026B67E /* CALayer+XZXibConfiguration.m in Sources */,
 				954BDDF120C4E2770026B67E /* XZEnterAuthCodeController.m in Sources */,
+				954BDE1320C7BB660026B67E /* XZTextField.m in Sources */,
+				954BDE0C20C778860026B67E /* XZSearchController.m in Sources */,
+				954BDE1020C7B8CC0026B67E /* MainViewController.m in Sources */,
+				954BDE1620C8CDAF0026B67E /* XZAnimations.m in Sources */,
 				954BDE0020C51D7A0026B67E /* XZLoginController.m in Sources */,
 				954BDDF420C509CD0026B67E /* XZButton.m in Sources */,
 				954BDDC920C4CEA90026B67E /* main.m in Sources */,

@@ -16,6 +16,7 @@
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import "Masonry.h"
 #import "XZButton.h"
+#import "XZAnimations.h"
 #endif
 
 #endif /* RacDemoPch_pch */
